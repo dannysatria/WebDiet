@@ -1,0 +1,11 @@
+LANGKAH INSTALASI PROGRAM
+
+1. download file program
+2. Pastikan bahwa Java telah di install pada perangkat yang ingin digunakan
+3. install Apache Jena Fuseki
+4. running Apache Jena Fuseki melalui terminal, lalu buka pada browser dengan memasukan url yang di berikan pada saat running di terminal
+5. install rdf pada Apache Jena Fuseki. untuk file rdf terletak pada folder public dengan judul makanandiert2aplikasi.rdf
+6. untuk membuka web, yang pertama Buka folder program, lalu klik kanan di folder, pilih buka dari terminal
+7. Ketik "code ." buat buka vs code, lalu ketik "npm run dev" untuk menjalankan web
+8. web sudah bisa dijalankan
+
