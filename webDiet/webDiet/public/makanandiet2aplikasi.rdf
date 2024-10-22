@@ -1,0 +1,3060 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY makanan_diet "http://www.semanticweb.org/danny/2024/5/makanan_diet#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/danny/2024/5/makanan_diet/"
+     xml:base="http://www.semanticweb.org/danny/2024/5/makanan_diet/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:makanan_diet="http://www.semanticweb.org/danny/2024/5/makanan_diet#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/danny/2024/5/makanan_diet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#cocokUntukTipeBadan -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;cocokUntukTipeBadan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#diatYangCocok -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;diatYangCocok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kaloriHarian -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;kaloriHarian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#makananYangCocok -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;makananYangCocok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#masukKeDiet -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;masukKeDiet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#mengandung -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;mengandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#proteinHarian -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;proteinHarian">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#terbuatDari -->
+
+    <owl:ObjectProperty rdf:about="&makanan_diet;terbuatDari"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#berat -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;berat">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#deskripsiDiet -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;deskripsiDiet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jumlah -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;jumlah">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kandunganKalori -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kandunganKalori">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kandunganKarbohidrat -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kandunganKarbohidrat">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kandunganLemak -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kandunganLemak">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kandunganProtein -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kandunganProtein">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kandunganSerat -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kandunganSerat">
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kebutuhanKaloriHarian -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kebutuhanKaloriHarian">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kebutuhanProteinHarian -->
+
+    <owl:DatatypeProperty rdf:about="&makanan_diet;kebutuhanProteinHarian">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#BMI -->
+
+    <owl:Class rdf:about="&makanan_diet;BMI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bahan -->
+
+    <owl:Class rdf:about="&makanan_diet;bahan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dariTumbuhan -->
+
+    <owl:Class rdf:about="&makanan_diet;dariTumbuhan">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;bahan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#darihewan -->
+
+    <owl:Class rdf:about="&makanan_diet;darihewan">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;bahan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#diet -->
+
+    <owl:Class rdf:about="&makanan_diet;diet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#hidanganaUtama -->
+
+    <owl:Class rdf:about="&makanan_diet;hidanganaUtama">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;menu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#menu -->
+
+    <owl:Class rdf:about="&makanan_diet;menu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#minuman -->
+
+    <owl:Class rdf:about="&makanan_diet;minuman">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;menu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pokok -->
+
+    <owl:Class rdf:about="&makanan_diet;pokok">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;bahan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#snack -->
+
+    <owl:Class rdf:about="&makanan_diet;snack">
+        <rdfs:subClassOf rdf:resource="&makanan_diet;menu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#spesifikasiMakanan -->
+
+    <owl:Class rdf:about="&makanan_diet;spesifikasiMakanan"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#NasiGoreng -->
+
+    <owl:Thing rdf:about="&makanan_diet;NasiGoreng">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">168</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">21</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">6,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6,3</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;nasi"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#PisangRebus -->
+
+    <owl:Thing rdf:about="&makanan_diet;PisangRebus">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">22</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">90</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;pisang"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#RujakBuah -->
+
+    <owl:Thing rdf:about="&makanan_diet;RujakBuah">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;apel"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;mangga"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#SmoothieBuah-Buahan -->
+
+    <owl:Thing rdf:about="&makanan_diet;SmoothieBuah-Buahan">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">55</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;apel"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;jeruk"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;mangga"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;melon"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;nanas"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;susuSapi"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#TehHijau -->
+
+    <owl:Thing rdf:about="&makanan_diet;TehHijau">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#TepungBeras -->
+
+    <owl:Thing rdf:about="&makanan_diet;TepungBeras">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">366</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">80</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#air -->
+
+    <owl:Thing rdf:about="&makanan_diet;air">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">0</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#almond -->
+
+    <owl:Thing rdf:about="&makanan_diet;almond">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">12</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">21</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">22</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">49</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">575</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#alpukat -->
+
+    <owl:Thing rdf:about="&makanan_diet;alpukat">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">160</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#apel -->
+
+    <owl:Thing rdf:about="&makanan_diet;apel">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">14</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">52</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#asinanSayuran -->
+
+    <owl:Thing rdf:about="&makanan_diet;asinanSayuran">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">12</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">50</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ayamBetutu -->
+
+    <owl:Thing rdf:about="&makanan_diet;ayamBetutu">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 porsi</makanan_diet:jumlah>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">14,8</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">200</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">22,6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">425</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">6,35</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ayamGoreng -->
+
+    <owl:Thing rdf:about="&makanan_diet;ayamGoreng">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10,76</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">14,55</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">21,39</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">260</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ayamGorengBumbuKuning -->
+
+    <owl:Thing rdf:about="&makanan_diet;ayamGorengBumbuKuning">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">14,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">14,55</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">260</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ayamPanggang -->
+
+    <owl:Thing rdf:about="&makanan_diet;ayamPanggang">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">13,49</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">237</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">27</makanan_diet:kandunganProtein>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bakso -->
+
+    <owl:Thing rdf:about="&makanan_diet;bakso">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;decimal">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">45</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5,5</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bakwanJagung -->
+
+    <owl:Thing rdf:about="&makanan_diet;bakwanJagung">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">150</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;jagung"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bayam -->
+
+    <owl:Thing rdf:about="&makanan_diet;bayam">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,9</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">23</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,6</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bebekGoreng -->
+
+    <owl:Thing rdf:about="&makanan_diet;bebekGoreng">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 potong</makanan_diet:jumlah>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">153</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">28,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">337</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4,3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingBebek"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#beras -->
+
+    <owl:Thing rdf:about="&makanan_diet;beras">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,3</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">365</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">80</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#bijiKopi -->
+
+    <owl:Thing rdf:about="&makanan_diet;bijiKopi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,9</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#brokoli -->
+
+    <owl:Thing rdf:about="&makanan_diet;brokoli">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">34</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">6</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#buahNaga -->
+
+    <owl:Thing rdf:about="&makanan_diet;buahNaga">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#buburKacangHijau -->
+
+    <owl:Thing rdf:about="&makanan_diet;buburKacangHijau">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">120</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganSerat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kacangHijau"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#buburKetanHitam -->
+
+    <owl:Thing rdf:about="&makanan_diet;buburKetanHitam">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">150</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">33</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;ketanHitam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#buncis -->
+
+    <owl:Thing rdf:about="&makanan_diet;buncis">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,8</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">31</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#cumi -->
+
+    <owl:Thing rdf:about="&makanan_diet;cumi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal"></makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal"></makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">92</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dagingAyam -->
+
+    <owl:Thing rdf:about="&makanan_diet;dagingAyam">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">165</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">31</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dagingBabi -->
+
+    <owl:Thing rdf:about="&makanan_diet;dagingBabi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">133</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">21</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganLemak>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dagingBebek -->
+
+    <owl:Thing rdf:about="&makanan_diet;dagingBebek">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">137</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">24</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,4</makanan_diet:kandunganLemak>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dagingKambing -->
+
+    <owl:Thing rdf:about="&makanan_diet;dagingKambing">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">143</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">27</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganLemak>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dagingSapi -->
+
+    <owl:Thing rdf:about="&makanan_diet;dagingSapi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">150</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganLemak>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dietDASH -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;dietDASH">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:deskripsiDiet>Diet ini menekankan konsumsi makanan rendah sodium, tinggi potasium, kalsium, dan magnesium untuk membantu menurunkan tekanan darah.</makanan_diet:deskripsiDiet>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gado-gado"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;lontongSayur"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pepesIkan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurAsem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurLodeh"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurUrap"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sotoAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBayam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisKangkung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisPare"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisSayur"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;undeweight"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dietIntermittentFasting -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;dietIntermittentFasting">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;SmoothieBuah-Buahan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;air"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;buburKacangHijau"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;buncis"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;dagingBabi"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;dagingBebek"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;dagingKambing"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanBakar"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangHijau"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangMerah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangMete"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangTanah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kopiHitam"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pisang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tempe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dietKetogenik -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;dietKetogenik">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:deskripsiDiet>Diet ini sangat rendah karbohidrat dan tinggi lemak, yang memicu kondisi ketosis dalam tubuh.</makanan_diet:deskripsiDiet>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;TehHijau"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamBetutu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gulaiKambing"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;krupukKulit"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;oporAyam"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pepesTahu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;rendang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateKambingTanpaNasidanLontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sopIgaSapi"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;udangAsamManis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dietLowCarb -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;dietLowCarb">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:deskripsiDiet>Diet ini membatasi asupan karbohidrat dan menekankan protein dan lemak sehat.</makanan_diet:deskripsiDiet>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamBetutu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamGoreng"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamGorengBumbuKuning"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanAsin"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;keripikBayam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;keripikTempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;lemetSingkong"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateAyamTanpaLontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateKambingTanpaNasidanLontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurAsem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sosisSapiPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;supAyamKampung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTempeBacem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBrokoliAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBuncisDagingCincang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisPare"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#dietMediterania -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;dietMediterania">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:deskripsiDiet>Diet ini menekankan konsumsi buah-buahan, sayuran, biji-bijian, kacang-kacangan, dan minyak zaitun, dengan asupan moderat ikan dan unggas, serta rendah konsumsi daging merah dan gula.</makanan_diet:deskripsiDiet>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;PisangRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;RujakBuah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;SmoothieBuah-Buahan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;asinanSayuran"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;buburKacangHijau"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gado-gado"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanBakar"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;jagungBakar"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;jagungRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangHijau"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangMerah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangMete"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kacangTanah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;karedok"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pepesIkan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;saladBuah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;saladTempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurUrap"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sopBuntut"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisKangkung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#gado-gado -->
+
+    <owl:Thing rdf:about="&makanan_diet;gado-gado">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10,9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">132</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,9</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">7,1</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">7,4</makanan_diet:kandunganLemak>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kol"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;lontong"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#gandum -->
+
+    <owl:Thing rdf:about="&makanan_diet;gandum">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">10,7</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">340</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">72</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#gulaiKambing -->
+
+    <owl:Thing rdf:about="&makanan_diet;gulaiKambing">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">125</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">4,7</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">6,4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">9,6</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingKambing"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ikan -->
+
+    <owl:Thing rdf:about="&makanan_diet;ikan">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">00</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">132</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ikanAsin -->
+
+    <owl:Thing rdf:about="&makanan_diet;ikanAsin">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1,5</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">195</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">42,1</makanan_diet:kandunganProtein>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;ikanAsin"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ikanBakar -->
+
+    <owl:Thing rdf:about="&makanan_diet;ikanBakar">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">144</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">17,1</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">6,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat>2,2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;ikan"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ikanGoreng -->
+
+    <owl:Thing rdf:about="&makanan_diet;ikanGoreng">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">11,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">2,3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">20,9</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">200</makanan_diet:kandunganKalori>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tongkol"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ikanPanggang -->
+
+    <owl:Thing rdf:about="&makanan_diet;ikanPanggang">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">126</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">21,9</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,4</makanan_diet:kandunganLemak>
+        <makanan_diet:berat>100^^xsd:decimal</makanan_diet:berat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;ikan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#infusedWater -->
+
+    <owl:Thing rdf:about="&makanan_diet;infusedWater">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;air"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;lemon"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jagung -->
+
+    <owl:Thing rdf:about="&makanan_diet;jagung">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1,2</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">86</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jagungBakar -->
+
+    <owl:Thing rdf:about="&makanan_diet;jagungBakar">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">150</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">30</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;jagung"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jagungRebus -->
+
+    <owl:Thing rdf:about="&makanan_diet;jagungRebus">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">86</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;jagung"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jeruk -->
+
+    <owl:Thing rdf:about="&makanan_diet;jeruk">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">47</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#jusTomat -->
+
+    <owl:Thing rdf:about="&makanan_diet;jusTomat">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">18</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">4,2</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tomat"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacang -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacang">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">16</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">25,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">49,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">567</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">8,5</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangHijau -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangHijau">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">105</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">25,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">8,5</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangMerah -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangMerah">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">23</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">333</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">8,5</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangMete -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangMete">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">18</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">30</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">44</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">553</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangPanggang -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangPanggang">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">30</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">46</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">574</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kacang"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangRebus -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangRebus">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">150</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">20</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kacangTanah"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kacangTanah -->
+
+    <owl:Thing rdf:about="&makanan_diet;kacangTanah">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">16</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">49</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">567</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">8,5</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kangkung -->
+
+    <owl:Thing rdf:about="&makanan_diet;kangkung">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">20</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,6</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#karedok -->
+
+    <owl:Thing rdf:about="&makanan_diet;karedok">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10,2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">125</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">6,7</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6,8</makanan_diet:kandunganProtein>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;lontong"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiSerat"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kedelai -->
+
+    <owl:Thing rdf:about="&makanan_diet;kedelai">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">20</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">30</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">36</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">446</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kelapa -->
+
+    <owl:Thing rdf:about="&makanan_diet;kelapa">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">33</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">354</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganSerat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kentang -->
+
+    <owl:Thing rdf:about="&makanan_diet;kentang">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">17</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">77</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kerang -->
+
+    <owl:Thing rdf:about="&makanan_diet;kerang">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">86</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#keripikBayam -->
+
+    <owl:Thing rdf:about="&makanan_diet;keripikBayam">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">56</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;bayam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#keripikTempe -->
+
+    <owl:Thing rdf:about="&makanan_diet;keripikTempe">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">11</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">183</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganLemak>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#ketanHitam -->
+
+    <owl:Thing rdf:about="&makanan_diet;ketanHitam">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">200</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">37</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#klepon -->
+
+    <owl:Thing rdf:about="&makanan_diet;klepon">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">180</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">40</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kol -->
+
+    <owl:Thing rdf:about="&makanan_diet;kol">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,3</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">6</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kopiHitam -->
+
+    <owl:Thing rdf:about="&makanan_diet;kopiHitam">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKalori>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;bijiKopi"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#krupukKulit -->
+
+    <owl:Thing rdf:about="&makanan_diet;krupukKulit">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">20</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">40</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">545</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#kueLumpur -->
+
+    <owl:Thing rdf:about="&makanan_diet;kueLumpur">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">14</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">255</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">29</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kentang"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tepungTerigu"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lele -->
+
+    <owl:Thing rdf:about="&makanan_diet;lele">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">16</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">95</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lemetSingkong -->
+
+    <owl:Thing rdf:about="&makanan_diet;lemetSingkong">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">230</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">58</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;singkong"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lemon -->
+
+    <owl:Thing rdf:about="&makanan_diet;lemon">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,8</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">29</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lemperKacangHijau -->
+
+    <owl:Thing rdf:about="&makanan_diet;lemperKacangHijau">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">190</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">37</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kacangHijau"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lontong -->
+
+    <owl:Thing rdf:about="&makanan_diet;lontong">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">120</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">27</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#lontongSayur -->
+
+    <owl:Thing rdf:about="&makanan_diet;lontongSayur">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:jumlah rdf:datatype="&xsd;decimal">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">11,1</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">357</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">59,1</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">8,3</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;bayam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;lontong"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#mangga -->
+
+    <owl:Thing rdf:about="&makanan_diet;mangga">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,6</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#melon -->
+
+    <owl:Thing rdf:about="&makanan_diet;melon">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,6</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">34</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">8,2</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#nanas -->
+
+    <owl:Thing rdf:about="&makanan_diet;nanas">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,4</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">50</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#nasi -->
+
+    <owl:Thing rdf:about="&makanan_diet;nasi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">130</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">28</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#nasiGorengSayur -->
+
+    <owl:Thing rdf:about="&makanan_diet;nasiGorengSayur">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">151</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">18,9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5,6</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;nasi"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#nasiPadang -->
+
+    <owl:Thing rdf:about="&makanan_diet;nasiPadang">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal"></makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 bungkus</makanan_diet:jumlah>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">380</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">664</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">70</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">70</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;nasi"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;rendang"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;telur"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#normal -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;normal">
+        <rdf:type rdf:resource="&makanan_diet;BMI"/>
+        <makanan_diet:kebutuhanProteinHarian>0,8-1,0 gram protein per kilogram berat badan per hari. Misalnya, untuk wanita dengan berat badan 60 kg, kebutuhan proteinnya sekitar 48-60 gram per hari.</makanan_diet:kebutuhanProteinHarian>
+        <makanan_diet:kebutuhanKaloriHarian>Rata-rata sekitar 1.800-2.400 kalori per hari untuk wanita dewasa dan 2.200-3.000 kalori per hari untuk pria dewasa.</makanan_diet:kebutuhanKaloriHarian>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;vegan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#obese -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;obese">
+        <rdf:type rdf:resource="&makanan_diet;BMI"/>
+        <makanan_diet:kebutuhanProteinHarian>Sama seperti untuk orang dengan berat badan normal, sekitar 0,8-1,0 gram protein per kilogram berat badan per hari. Misalnya, untuk wanita dengan berat badan 100 kg, kebutuhan proteinnya sekitar 80-100 gram per hari.</makanan_diet:kebutuhanProteinHarian>
+        <makanan_diet:kebutuhanKaloriHarian>Berdasarkan penurunan berat badan yang aman, biasanya sekitar 1.200-1.800 kalori per hari untuk wanita dan 1.500-2.000 kalori per hari untuk pria.</makanan_diet:kebutuhanKaloriHarian>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;vegan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#onde-onde -->
+
+    <owl:Thing rdf:about="&makanan_diet;onde-onde">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">200</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">35</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;singkong"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#oporAyam -->
+
+    <owl:Thing rdf:about="&makanan_diet;oporAyam">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,5</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">16,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">163</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">5,6</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">8,6</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#overweight -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;overweight">
+        <rdf:type rdf:resource="&makanan_diet;BMI"/>
+        <makanan_diet:kebutuhanProteinHarian>Sama seperti untuk orang dengan berat badan normal, sekitar 0,8-1,0 gram protein per kilogram berat badan per hari.</makanan_diet:kebutuhanProteinHarian>
+        <makanan_diet:kebutuhanKaloriHarian>Rata-rata sekitar 1.500-2.200 kalori per hari untuk wanita dan 1.800-2.600 kalori per hari untuk pria.</makanan_diet:kebutuhanKaloriHarian>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;vegan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pare -->
+
+    <owl:Thing rdf:about="&makanan_diet;pare">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">17</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,7</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pempek -->
+
+    <owl:Thing rdf:about="&makanan_diet;pempek">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,1</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 potong</makanan_diet:jumlah>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">39</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;ikan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pepesIkan -->
+
+    <owl:Thing rdf:about="&makanan_diet;pepesIkan">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">105</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">16</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tongkol"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pepesTahu -->
+
+    <owl:Thing rdf:about="&makanan_diet;pepesTahu">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 bungkus</makanan_diet:jumlah>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">5,7</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">63</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tahu"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pisang -->
+
+    <owl:Thing rdf:about="&makanan_diet;pisang">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">23</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">89</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#pisangGoreng -->
+
+    <owl:Thing rdf:about="&makanan_diet;pisangGoreng">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">154</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">32</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;pisang"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#rawon -->
+
+    <owl:Thing rdf:about="&makanan_diet;rawon">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">119</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">7,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">9,6</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#rendang -->
+
+    <owl:Thing rdf:about="&makanan_diet;rendang">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal"></makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">11</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">19,6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">195</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4,4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#roti -->
+
+    <owl:Thing rdf:about="&makanan_diet;roti">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">265</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">49</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#saladBuah -->
+
+    <owl:Thing rdf:about="&makanan_diet;saladBuah">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">15</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;alpukat"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;apel"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;buahNaga"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;jeruk"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;mangga"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;melon"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;nanas"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#saladTempe -->
+
+    <owl:Thing rdf:about="&makanan_diet;saladTempe">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">10</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">160</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganSerat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#salmon -->
+
+    <owl:Thing rdf:about="&makanan_diet;salmon">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">20</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">208</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sambalGorengTempe -->
+
+    <owl:Thing rdf:about="&makanan_diet;sambalGorengTempe">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,4</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">11,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">12,8</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">15,6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">198</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sateAyam -->
+
+    <owl:Thing rdf:about="&makanan_diet;sateAyam">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 tusuk</makanan_diet:jumlah>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,9</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">34</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sateAyamTanpaLontong -->
+
+    <owl:Thing rdf:about="&makanan_diet;sateAyamTanpaLontong">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 tusuk</makanan_diet:jumlah>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">1,3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">36</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sateKambingTanpaNasidanLontong -->
+
+    <owl:Thing rdf:about="&makanan_diet;sateKambingTanpaNasidanLontong">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 tusuk</makanan_diet:jumlah>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,11</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,84</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">32</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingKambing"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sayurAsem -->
+
+    <owl:Thing rdf:about="&makanan_diet;sayurAsem">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:jumlah rdf:datatype="&xsd;decimal">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">12,9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,1</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">80</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiSerat"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sayurLodeh -->
+
+    <owl:Thing rdf:about="&makanan_diet;sayurLodeh">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">14,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">162</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6,6</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">9,4</makanan_diet:kandunganLemak>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sayurPecel -->
+
+    <owl:Thing rdf:about="&makanan_diet;sayurPecel">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">17,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">19,1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">426</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">52,6</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">9,9</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah>1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sayurUrap -->
+
+    <owl:Thing rdf:about="&makanan_diet;sayurUrap">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">10,8</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">112</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">7,6</makanan_diet:kandunganLemak>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiSerat"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sayuran -->
+
+    <owl:Thing rdf:about="&makanan_diet;sayuran">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#semangka -->
+
+    <owl:Thing rdf:about="&makanan_diet;semangka">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">30</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">8</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#serabi -->
+
+    <owl:Thing rdf:about="&makanan_diet;serabi">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">120</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">25</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;TepungBeras"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kelapa"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#singkong -->
+
+    <owl:Thing rdf:about="&makanan_diet;singkong">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,4</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,8</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">160</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">38</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#singkongRebus -->
+
+    <owl:Thing rdf:about="&makanan_diet;singkongRebus">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">160</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">38</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;singkong"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sirsak -->
+
+    <owl:Thing rdf:about="&makanan_diet;sirsak">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">16</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">66</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sopBuntut -->
+
+    <owl:Thing rdf:about="&makanan_diet;sopBuntut">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">28</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,5</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sopIgaSapi -->
+
+    <owl:Thing rdf:about="&makanan_diet;sopIgaSapi">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">28</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">8</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sosisSapiPanggang -->
+
+    <owl:Thing rdf:about="&makanan_diet;sosisSapiPanggang">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">11</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">28</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">300</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingSapi"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#sotoAyam -->
+
+    <owl:Thing rdf:about="&makanan_diet;sotoAyam">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:jumlah rdf:datatype="&xsd;decimal">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">14,9</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19,5</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">24</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">312</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#supAyamKampung -->
+
+    <owl:Thing rdf:about="&makanan_diet;supAyamKampung">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganSerat>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">75</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#susuKambing -->
+
+    <owl:Thing rdf:about="&makanan_diet;susuKambing">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">18</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">65</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#susuKedelai -->
+
+    <owl:Thing rdf:about="&makanan_diet;susuKedelai">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;minuman"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1,8</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">1,8</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">33</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kedelai"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#susuSapi -->
+
+    <owl:Thing rdf:about="&makanan_diet;susuSapi">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">70</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tahu -->
+
+    <owl:Thing rdf:about="&makanan_diet;tahu">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">1,9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">76</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">8</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tahuTek -->
+
+    <owl:Thing rdf:about="&makanan_diet;tahuTek">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:jumlah rdf:datatype="&xsd;string">1 mangkok</makanan_diet:jumlah>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">16,7</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">300</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">6</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">62</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">9</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori>378</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;lontong"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tahu"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tahuTempeBacem -->
+
+    <owl:Thing rdf:about="&makanan_diet;tahuTempeBacem">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">2,2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,7</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">49</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tahu"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#telur -->
+
+    <owl:Thing rdf:about="&makanan_diet;telur">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">11</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">155</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#telurRebus -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;telurRebus">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">5,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6,2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">77</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietIntermittentFasting"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;telur"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tempe -->
+
+    <owl:Thing rdf:about="&makanan_diet;tempe">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">11,5</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">18,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">193</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">7,6</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tepungTerigu -->
+
+    <owl:Thing rdf:about="&makanan_diet;tepungTerigu">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">10</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">364</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">76</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tinggiKalori -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;tinggiKalori">
+        <rdf:type rdf:resource="&makanan_diet;spesifikasiMakanan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;bakso"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gado-gado"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gulaiKambing"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;krupukKulit"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;lontongSayur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;oporAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pepesIkan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;rendang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sambalGorengTempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurAsem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurPecel"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurUrap"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sotoAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTek"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;udangAsamManis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tinggiKarbo -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;tinggiKarbo">
+        <rdf:type rdf:resource="&makanan_diet;spesifikasiMakanan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;beras"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;buburKetanHitam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;jagung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;jagungBakar"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;jagungRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;kentang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;lontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;lontongSayur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;nasi"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sambalGorengTempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurPecel"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sotoAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTek"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tipat"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;udangAsamManis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tinggiLemak -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;tinggiLemak">
+        <rdf:type rdf:resource="&makanan_diet;spesifikasiMakanan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;krupukKulit"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;rendang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurPecel"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sopIgaSapi"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisKangkung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;udangAsamManis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tinggiProtein -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;tinggiProtein">
+        <rdf:type rdf:resource="&makanan_diet;spesifikasiMakanan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;NasiGoreng"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamBetutu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamGorengBumbuKuning"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ayamPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;bakso"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;bebekGoreng"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;gulaiKambing"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanAsin"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanBakar"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanGoreng"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;ikanPanggang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;nasiGorengSayur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;nasiPadang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;oporAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pepesIkan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;rendang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateAyamTanpaLontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sateKambingTanpaNasidanLontong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sotoAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;supAyamKampung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTek"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTempeBacem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;telurRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBrokoliAyam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBuncisDagingCincang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tinggiSerat -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;tinggiSerat">
+        <rdf:type rdf:resource="&makanan_diet;spesifikasiMakanan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;karedok"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurAsem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurUrap"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tipat -->
+
+    <owl:Thing rdf:about="&makanan_diet;tipat">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;pokok"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,3</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,5</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">122</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">27</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tomat -->
+
+    <owl:Thing rdf:about="&makanan_diet;tomat">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;dariTumbuhan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0,2</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">0,9</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,2</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">18</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">3,9</makanan_diet:kandunganKarbohidrat>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tongkol -->
+
+    <owl:Thing rdf:about="&makanan_diet;tongkol">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">205</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">21</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisBayam -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisBayam">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">3,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4,6</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">6,8</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">86</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;bayam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisBrokoliAyam -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisBrokoliAyam">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,3</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">3,2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">54</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">6,9</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;brokoli"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisBuncisDagingCincang -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisBuncisDagingCincang">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">144</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">19,2</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">3,6</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">4,7</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">9,2</makanan_diet:kandunganProtein>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;buncis"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;dagingAyam"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiProtein"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisKangkung -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisKangkung">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">1,7</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">8,7</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">98</makanan_diet:kandunganKalori>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kangkung"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisPare -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisPare">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">1,2</makanan_diet:kandunganProtein>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">2,4</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2,5</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">46</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">5,7</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietLowCarb"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;pare"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tumisSayur -->
+
+    <owl:Thing rdf:about="&makanan_diet;tumisSayur">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">13</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">2,8</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">4,4</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">60</makanan_diet:kandunganKalori>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#tuna -->
+
+    <owl:Thing rdf:about="&makanan_diet;tuna">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">116</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">26</makanan_diet:kandunganProtein>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#udang -->
+
+    <owl:Thing rdf:about="&makanan_diet;udang">
+        <rdf:type rdf:resource="&makanan_diet;bahan"/>
+        <rdf:type rdf:resource="&makanan_diet;darihewan"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">1</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">14</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">71</makanan_diet:kandunganKalori>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#udangAsamManis -->
+
+    <owl:Thing rdf:about="&makanan_diet;udangAsamManis">
+        <rdf:type rdf:resource="&makanan_diet;hidanganaUtama"/>
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">0,7</makanan_diet:kandunganSerat>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">16,8</makanan_diet:kandunganLemak>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">25,1</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">269</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">6,5</makanan_diet:kandunganProtein>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;dietKetogenik"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKalori"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiKarbo"/>
+        <makanan_diet:mengandung rdf:resource="&makanan_diet;tinggiLemak"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;udang"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#undeweight -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;undeweight">
+        <rdf:type rdf:resource="&makanan_diet;BMI"/>
+        <makanan_diet:kebutuhanKaloriHarian>Bergantung pada tujuan penambahan berat badan, bisa bervariasi antara 1.800-2.400 kalori per hari untuk wanita dan 2.200-3.000 kalori per hari untuk pria.</makanan_diet:kebutuhanKaloriHarian>
+        <makanan_diet:kebutuhanProteinHarian>Lebih tinggi dari normal, sekitar 1,2-1,5 gram protein per kilogram berat badan per hari. Misalnya, untuk wanita dengan berat badan 45 kg, kebutuhan proteinnya sekitar 54-68 gram per hari.</makanan_diet:kebutuhanProteinHarian>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietDASH"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;dietMediterania"/>
+        <makanan_diet:diatYangCocok rdf:resource="&makanan_diet;vegan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#vegan -->
+
+    <owl:NamedIndividual rdf:about="&makanan_diet;vegan">
+        <rdf:type rdf:resource="&makanan_diet;diet"/>
+        <makanan_diet:deskripsiDiet>Diet ini menghilangkan semua produk hewani, termasuk daging, susu, dan telur, dan berfokus pada makanan nabati.</makanan_diet:deskripsiDiet>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;PisangRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;RujakBuah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;SmoothieBuah-Buahan"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;TehHijau"/>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kedelai"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;normal"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;obese"/>
+        <makanan_diet:cocokUntukTipeBadan rdf:resource="&makanan_diet;overweight"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pare"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pisang"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;pisangGoreng"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;saladBuah"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;saladTempe"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurAsem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurLodeh"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurPecel"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayurUrap"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sayuran"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;semangka"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;singkong"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;singkongRebus"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;sirsak"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahu"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTek"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tahuTempeBacem"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tipat"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tomat"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisBayam"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisKangkung"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisPare"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;tumisSayur"/>
+        <makanan_diet:makananYangCocok rdf:resource="&makanan_diet;wingkoBabat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danny/2024/5/makanan_diet#wingkoBabat -->
+
+    <owl:Thing rdf:about="&makanan_diet;wingkoBabat">
+        <rdf:type rdf:resource="&makanan_diet;menu"/>
+        <rdf:type rdf:resource="&makanan_diet;snack"/>
+        <rdf:type rdf:resource="&owl;NamedIndividual"/>
+        <makanan_diet:berat rdf:datatype="&xsd;decimal">100</makanan_diet:berat>
+        <makanan_diet:kandunganSerat rdf:datatype="&xsd;decimal">2</makanan_diet:kandunganSerat>
+        <makanan_diet:kandunganKalori rdf:datatype="&xsd;decimal">250</makanan_diet:kandunganKalori>
+        <makanan_diet:kandunganProtein rdf:datatype="&xsd;decimal">4</makanan_diet:kandunganProtein>
+        <makanan_diet:kandunganKarbohidrat rdf:datatype="&xsd;decimal">40</makanan_diet:kandunganKarbohidrat>
+        <makanan_diet:kandunganLemak rdf:datatype="&xsd;decimal">7</makanan_diet:kandunganLemak>
+        <makanan_diet:terbuatDari rdf:resource="&makanan_diet;kelapa"/>
+        <makanan_diet:masukKeDiet rdf:resource="&makanan_diet;vegan"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
